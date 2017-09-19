@@ -133,7 +133,8 @@ PRODUCT_PACKAGES += \
 
 # ProjectNewWorld packages
 PRODUCT_PACKAGES += \
-    Eleven
+    Eleven \
+    Turbo
 
 # Include support for additional filesystems
 PRODUCT_PACKAGES += \
