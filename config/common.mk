@@ -29,7 +29,7 @@ endif
 
 # Include versioning information
 # Format: Major.minor.maintenance(-TAG)
-PNW_VERSION_TAG := 8.0.0
+PNW_VERSION_TAG := 8.1.0
 export PNW_VERSION := $(PNW_VERSION_TAG)-$(PNW_TAG)
 ROM_POSTFIX := $(shell date -u +%Y%m%d)
 
