@@ -136,6 +136,13 @@ PRODUCT_PACKAGES += \
     Eleven \
     Turbo
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Include support for additional filesystems
 PRODUCT_PACKAGES += \
     e2fsck \
